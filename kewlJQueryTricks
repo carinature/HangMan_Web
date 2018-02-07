@@ -2,7 +2,12 @@
 
 // just some kewl jQuery tricks
 
-// colores paragraphs in RED - only after the mouse hover over them
+///////// colores paragraphs in RED - only after the mouse hover over them ////////
 $( "p" ).on( "mouseover", function() {
   $( this ).css( "color", "red" );
 });
+
+//////// prints out (right into the web page) good 4 DEBUG////////
+// var navList = $(".nav-item");
+// var title = navList1st.attr( "href");
+$( "div" ).text( title );
