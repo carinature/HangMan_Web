@@ -1,0 +1,8 @@
+// This file is to br RMEOVED!
+
+// just some kewl jQuery tricks
+
+// colores paragraphs in RED - only after the mouse hover over them
+$( "p" ).on( "mouseover", function() {
+  $( this ).css( "color", "red" );
+});
