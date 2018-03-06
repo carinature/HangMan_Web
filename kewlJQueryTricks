@@ -11,3 +11,8 @@ $( "p" ).on( "mouseover", function() {
 // var navList = $(".nav-item");
 // var title = navList1st.attr( "href");
 $( "div" ).text( title );
+
+////// print the HTML content - good for validating correct strycture
+// $("div#family1").html();
+// diva = $("div");
+// $("div").text(diva.html());
