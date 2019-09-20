@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!--  convert to button for alignment...? -->
+	<div align='center'>
+		<!--  HEADER -->
+		<img alt='Hanging Man' src='http://tiny.cc/msej6y' width="50"/>
+		<h1 class='horizontalAlign'> HangMan </h1>
+		<!-- <img alt='Hanging Man' src='http://tiny.cc/2sfj6y' width="100"/> -->
+  </div >
+  <h3 align='center'> Current Category : SONGS </h3>  
+
+  <div align='center'>  <!-- The Game View -->
+    <div class='horizontalAlignB'>  <!-- Play Zone -->
+
+      <div id='phrase' >  <!-- Phrase -->
+        <h2 > 
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>e</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>e</u></h2></div>
+          <div class='horizontalAlign'><h2>&nbsp&nbsp</h2></div>
+          <div class='horizontalAlign'><h2><u>i</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2>&nbsp&nbsp</h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2>&nbsp&nbsp</h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>i</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+          <div class='horizontalAlign'><h2><u>&nbsp&nbsp</u></h2></div>
+        </h2>
+      </div> 
+      <div id='wrong'>  <!-- Wrong Letters -->
+        <h4>Wrong Letters: </h4>
+        <p=> - a - b - c - </p>
+      </div> 
+      <br>
+      <div id='buttons' align='center'>  
+        <button onclick="start()"> Start Over </button>
+        <button onclick="change()"> New Phrase</button>
+        <button onclick="hint()"> Get a Hint</button>
+        <button onclick="letter()"> Suggest a Letter </button>
+      </div> 
+    </div>     
+
+    <div class='horizontalAlignB'  padding='20' >  <!-- Progress -->
+      <img id='progressImg' src='https://tinyurl.com/yxztskbv' width='200'/>
+      <h4 id='points'>Points: <b>5</b></h4>
+      <!-- <h5 id='points'>4</h5> -->
+    </div>
+  <br>
+  <br>
+
+  </div>
+
+    <script src="hangMan.js"></script>
+  </body>
+</html>
