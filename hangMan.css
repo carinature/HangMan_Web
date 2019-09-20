@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+  color: lightgrey;
+}
+
+.horizontalAlign {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.horizontalAlignB {
+  display: inline-block;
+  /* display: grid; */
+  margin: 0 auto;
+  text-align:center;
+  width:auto;
+  height:auto;
+  padding:1.5em;
+}
